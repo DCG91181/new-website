@@ -5,9 +5,10 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
+			favicon: '/images/favicon.ico',
 			title: 'DCG91181',
 			social: {
-				discord:'https://discord.gg/j3VMgyVaDt',
+				discord: 'https://discord.gg/j3VMgyVaDt',
 				linkedin: 'https://www.linkedin.com/company/dcg91181/',
 				twitter: 'https://twitter.com/dcg91181/',
 				instagram: 'https://www.instagram.com/dcg91181/',
