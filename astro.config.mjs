@@ -23,6 +23,10 @@ export default defineConfig({
 				// 	],
 				// },
 				{
+					label: 'Weekly Challenges',
+					autogenerate: { directory: 'challenges' },
+				},
+				{
 					label: 'Articles',
 					autogenerate: { directory: 'articles' },
 				},
