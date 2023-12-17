@@ -1,0 +1,42 @@
+---
+title: Welcome to DCG91181 Blog Hub!
+description: Explore Insights, Ideas, and Inspiration
+template: splash
+hero:
+  tagline: Discover a treasure trove of articles, guides, and thought-provoking content curated to spark curiosity, empower learning, and inspire innovation. Our blog is a vibrant platform where knowledge meets creativity, offering diverse perspectives on Cybersecurity.
+  image:
+    file: ../../assets/blogs.png
+  actions:
+    - text: Start Reading
+      link: /articles/deepfake
+      icon: right-arrow
+      variant: primary
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+## Latest Blog Posts
+
+<LinkCard
+    title="The Rise of Deepfake Technology: Implications and Countermeasures"
+    description= "In the age of digital manipulation, deepfake technology has brought up a new level of complexity and concern in the field of cybersecurity. Imagine audio recordings of loved ones having talks that never happened, or video footage of major people speaking things they never spoke. In today's digital environment, this technology's potential to produce hyper-realistic, yet entirely falsified content presents a serious threat."
+    href="/articles/deepfake"
+  />
+
+<LinkCard
+    title="Advent of Cyber - Day 3"
+    description= "In this task we will learn about password complexity and the number of possible combinations. How the number of possible combinations affects the feasibility of brute force attacks. Generating password combinations using crunch and trying out passwords automatically using hydra."
+    href="/advent-of-cyber/day3"
+  />
+
+  <LinkCard
+    title="Advent of Cyber - Day 2"
+    description= "In this task we will learn how data science can be applied in Cybersecurity. We will also work with some popular Python libraries such as Pandas and Matplotlib to crunch data."
+    href="/advent-of-cyber/day2"
+  />
+
+  <LinkCard
+    title="Advent of Cyber - Day 1"
+    description= "The Day 1 challenge is a easy walkthrough about AI chatbox. This challenge teaches about natural language processing, which powers modern AI chatbots. It also teaches us about prompt injection attacks and the common ways to carry them out and at last, how to defend against prompt injection attacks."
+    href="/advent-of-cyber/day1"
+  />

@@ -3,10 +3,15 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://dc91181.org',
 	integrations: [
 		starlight({
 			favicon: '/images/favicon.ico',
 			title: 'DCG91181',
+			components: {
+				// Override the default `SocialIcons` component.
+				SiteTitle: './src/components/SiteTitle.astro',
+			  },
 			social: {
 				discord: 'https://discord.gg/j3VMgyVaDt',
 				linkedin: 'https://www.linkedin.com/company/dcg91181/',
@@ -29,6 +34,10 @@ export default defineConfig({
 				{
 					label: 'Articles',
 					autogenerate: { directory: 'articles' },
+				},
+				{
+					label: 'Advent Of Cyber 2023',
+					autogenerate: { directory: 'advent-of-cyber' },
 				},
 				// {
 				// 	label: 'TryHackMe Writeups',

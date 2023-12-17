@@ -40,7 +40,7 @@ Can you find the secret and help Maya to solve this mystery?
 ## How to submit flag?
 ---
 Follow below steps to submit flag:
-- **Join our Discord Server:** Head over to our Discord server and navigate to the designated “submit-flag” channel.
+- **Join our Discord Server:** Head over to our [Discord server](https://discord.gg/j3VMgyVaDt) and navigate to the designated “submit-flag” channel.
 - **Submit Your Flag:** Use the command `/submit-flag flag{your_flag}` in the channel. Replace `flag{your_flag}` with the flag code you’ve obtained during the challenge.
 - **Bot Confirmation:** Our Discord bot will automatically verify the flag you’ve submitted. It will promptly respond, confirming if your submitted flag is correct or incorrect.
 By following these steps, you can efficiently submit your flags and receive immediate feedback from our Discord bot regarding the accuracy of your submission.
