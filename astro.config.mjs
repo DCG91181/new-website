@@ -33,6 +33,12 @@ export default defineConfig({
       autogenerate: {
         directory: 'challenges'
       }
+    },
+    {
+      label: 'Weekly Solutions',
+      autogenerate: {
+        directory: 'Solutions'
+      }
     }, {
       label: 'Articles',
       autogenerate: {

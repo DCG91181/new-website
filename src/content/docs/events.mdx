@@ -7,11 +7,23 @@ hero:
   image:
     file: ../../assets/events.png
   actions:
-    - text: Stay Updated
-      link: https://discord.gg/j3VMgyVaDt
+    - text: Event Calendar
+      link: https://calendar.google.com/calendar/embed?src=180040ec050832b03ca5b80b0f40154da44475b29de3f798a0aef9732320d44e%40group.calendar.google.com&ctz=Asia%2FKolkata
       icon: right-arrow
       variant: primary
     - text: Have an event idea? Great! Submit here
       link: https://forms.gle/oouC8WhhLTY17LkK6
       icon: external
 ---
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<Tabs>
+  <TabItem label="Upcoming Events">
+  <Card title="Monthly Meetup - January">
+    <b>Date:</b> will be updated soon <br />
+    <b>Venue:</b> will be updated soon
+  </Card>
+  </TabItem>
+  <TabItem label="Past Events">Look for upcoming</TabItem>
+</Tabs>

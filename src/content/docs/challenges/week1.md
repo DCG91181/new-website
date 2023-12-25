@@ -1,12 +1,10 @@
 ---
 title: Challenge - Week 0x01
 description: Weekly Challenges
-sidebar:
-    order: 1
-    badge:
-        text: new
-        variant: default
 ---
+:::caution
+This challenge is expired. You can find the solution [here](/solutions/week1).
+:::
 <div>
 Date: 17-12-2023
 </div>
